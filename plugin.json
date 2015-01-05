@@ -1,0 +1,18 @@
+{
+    "id": "btsync",
+    "name": "btsync",
+    "description": "allows users to add a folder on the host machine and a key for that folder to sync with",
+    "url": "https://github.com/improvshark/nodebb-plugin-btsync",
+    "library": "./btsync.js",
+    "staticDirs": {
+        "images": "public/images"
+    },
+    "less": [
+        "assets/style.less"
+    ],
+    "hooks": [
+        { "hook": "filter:post.save", "method": "parseBefore" },
+        { "hook": "action:post.get", "method": "parseAfter" }
+    ],
+    "languages": "path/to/languages"
+}

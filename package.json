@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-btsync",
+  "version": "0.1.0",
+  "description": "allows users to add a folder on the host machine and a key for that folder to sync with",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/improvshark/nodebb-plugin-btsync"
+  },
+  "author": "improvshark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/improvshark/nodebb-plugin-btsync/issues"
+  },
+  "homepage": "https://github.com/improvshark/nodebb-plugin-btsync",
+  "dependencies": {
+    "btsync": "^0.2.0",
+    "mkdirp": "^0.5.0"
+  }
+}
