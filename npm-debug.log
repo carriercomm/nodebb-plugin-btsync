@@ -11,16 +11,16 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/home/improvshark/Desktop/docker-lanForum/nodebb/nodebb-plugin-btsync',
 7 silly cache add   type: 'directory' }
-8 verbose tar pack [ '/home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package.tgz',
+8 verbose tar pack [ '/home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package.tgz',
 8 verbose tar pack   '/home/improvshark/Desktop/docker-lanForum/nodebb/nodebb-plugin-btsync' ]
-9 verbose tarball /home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package.tgz
+9 verbose tarball /home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package.tgz
 10 verbose folder /home/improvshark/Desktop/docker-lanForum/nodebb/nodebb-plugin-btsync
-11 info prepublish @improvshark/nodebb-plugin-btsync@0.1.0
-12 verbose addLocalTarball adding from inside cache /home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package.tgz
-13 silly cache afterAdd @improvshark/nodebb-plugin-btsync@0.1.0
-14 verbose afterAdd /home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package/package.json not in flight; writing
-15 verbose afterAdd /home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package/package.json written
-16 silly publish { name: '@improvshark/nodebb-plugin-btsync',
+11 info prepublish nodebb-plugin-btsync@0.1.0
+12 verbose addLocalTarball adding from inside cache /home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package.tgz
+13 silly cache afterAdd nodebb-plugin-btsync@0.1.0
+14 verbose afterAdd /home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package/package.json not in flight; writing
+15 verbose afterAdd /home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package/package.json written
+16 silly publish { name: 'nodebb-plugin-btsync',
 16 silly publish   version: '0.1.0',
 16 silly publish   description: 'allows users to add a folder on the host machine and a key for that folder to sync with',
 16 silly publish   main: 'index.js',
@@ -29,98 +29,67 @@
 16 silly publish    { type: 'git',
 16 silly publish      url: 'https://github.com/improvshark/nodebb-plugin-btsync' },
 16 silly publish   author: { name: 'improvshark' },
-16 silly publish   license: 'ISC',
+16 silly publish   license: 'MIT',
 16 silly publish   bugs: { url: 'https://github.com/improvshark/nodebb-plugin-btsync/issues' },
 16 silly publish   homepage: 'https://github.com/improvshark/nodebb-plugin-btsync',
 16 silly publish   dependencies: { btsync: '^0.2.0', mkdirp: '^0.5.0' },
 16 silly publish   readme: 'DO NOT USE ..in dev\n',
 16 silly publish   readmeFilename: 'README.md',
-16 silly publish   _id: '@improvshark/nodebb-plugin-btsync@0.1.0',
-16 silly publish   _shasum: '82e7456830f44ce6732b703ce556365e0c8cce02',
+16 silly publish   gitHead: 'fb99425a0438850547a25934df881f5583954833',
+16 silly publish   _id: 'nodebb-plugin-btsync@0.1.0',
+16 silly publish   _shasum: '3978679a2c5d479eeacd530e922a7e46a8d5a3f5',
 16 silly publish   _from: '.' }
-17 silly mapToRegistry name @improvshark/nodebb-plugin-btsync
-18 silly mapToRegistry scope (from package name) @improvshark
-19 verbose mapToRegistry no registry URL found in name for scope @improvshark
-20 silly mapToRegistry using default registry
-21 silly mapToRegistry registry https://registry.npmjs.org/
-22 silly mapToRegistry uri https://registry.npmjs.org/@improvshark%2fnodebb-plugin-btsync
-23 verbose publish registryBase https://registry.npmjs.org/
-24 silly publish uploading /home/improvshark/.npm/@improvshark/nodebb-plugin-btsync/0.1.0/package.tgz
-25 verbose request uri https://registry.npmjs.org/@improvshark%2fnodebb-plugin-btsync
-26 verbose request sending authorization for write operation
-27 info attempt registry request try #1 at 20:07:43
-28 verbose request id 5c84a6c23ab099ad
-29 http request PUT https://registry.npmjs.org/@improvshark%2fnodebb-plugin-btsync
-30 http 403 https://registry.npmjs.org/@improvshark%2fnodebb-plugin-btsync
-31 verbose headers { date: 'Mon, 05 Jan 2015 03:07:43 GMT',
-31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-31 verbose headers   'content-type': 'application/json',
-31 verbose headers   'cache-control': 'max-age=60',
-31 verbose headers   'content-length': '395',
-31 verbose headers   'accept-ranges': 'bytes',
-31 verbose headers   via: '1.1 varnish',
-31 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
-31 verbose headers   'x-cache': 'MISS',
-31 verbose headers   'x-cache-hits': '0',
-31 verbose headers   'x-timer': 'S1420427263.561175,VS0,VE42',
-31 verbose headers   'keep-alive': 'timeout=10, max=50',
-31 verbose headers   connection: 'Keep-Alive' }
-32 verbose request invalidating /home/improvshark/.npm/registry.npmjs.org/_40improvshark_252fnodebb-plugin-btsync on PUT
-33 error publish Failed PUT 403
-34 verbose stack Error: forbidden user: improvshark not authorized to modify @improvshark/nodebb-plugin-btsync
-34 verbose stack Added: _id
-34 verbose stack Added: name
-34 verbose stack Added: description
-34 verbose stack Added: dist-tags
-34 verbose stack Added: versions
-34 verbose stack Added: readme
-34 verbose stack Added: maintainers
-34 verbose stack Added: time
-34 verbose stack Added: homepage
-34 verbose stack Added: repository
-34 verbose stack Added: author
-34 verbose stack Added: bugs
-34 verbose stack Added: license
-34 verbose stack Added: readmeFilename
-34 verbose stack Added: _revisions
-34 verbose stack Added: _attachments
-34 verbose stack Added: users: @improvshark%2fnodebb-plugin-btsync
-34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:244:14)
-34 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
-34 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:373:22)
-34 verbose stack     at Request.emit (events.js:98:17)
-34 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1318:14)
-34 verbose stack     at Request.emit (events.js:117:20)
-34 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1266:12)
-34 verbose stack     at IncomingMessage.emit (events.js:117:20)
-34 verbose stack     at _stream_readable.js:944:16
-34 verbose stack     at process._tickCallback (node.js:442:13)
-35 verbose statusCode 403
-36 verbose pkgid @improvshark%2fnodebb-plugin-btsync
-37 verbose cwd /home/improvshark/Desktop/docker-lanForum/nodebb/nodebb-plugin-btsync
-38 error Linux 3.10.63-1-MANJARO
-39 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
-40 error node v0.10.35
-41 error npm  v2.1.16
-42 error code E403
-43 error forbidden user: improvshark not authorized to modify @improvshark/nodebb-plugin-btsync
-43 error Added: _id
-43 error Added: name
-43 error Added: description
-43 error Added: dist-tags
-43 error Added: versions
-43 error Added: readme
-43 error Added: maintainers
-43 error Added: time
-43 error Added: homepage
-43 error Added: repository
-43 error Added: author
-43 error Added: bugs
-43 error Added: license
-43 error Added: readmeFilename
-43 error Added: _revisions
-43 error Added: _attachments
-43 error Added: users: @improvshark%2fnodebb-plugin-btsync
-44 error If you need help, you may report this error at:
-44 error     <http://github.com/npm/npm/issues>
-45 verbose exit [ 1, true ]
+17 silly mapToRegistry name nodebb-plugin-btsync
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/nodebb-plugin-btsync
+21 verbose publish registryBase https://registry.npmjs.org/
+22 silly publish uploading /home/improvshark/.npm/nodebb-plugin-btsync/0.1.0/package.tgz
+23 verbose request uri https://registry.npmjs.org/nodebb-plugin-btsync
+24 verbose request sending authorization for write operation
+25 info attempt registry request try #1 at 20:11:43
+26 verbose request id c66f871d72bf67e1
+27 http request PUT https://registry.npmjs.org/nodebb-plugin-btsync
+28 http 403 https://registry.npmjs.org/nodebb-plugin-btsync
+29 verbose headers { date: 'Mon, 05 Jan 2015 03:11:43 GMT',
+29 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=60',
+29 verbose headers   'content-length': '2516',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1420427503.884307,VS0,VE43',
+29 verbose headers   'keep-alive': 'timeout=10, max=50',
+29 verbose headers   connection: 'Keep-Alive' }
+30 verbose request invalidating /home/improvshark/.npm/registry.npmjs.org/nodebb-plugin-btsync on PUT
+31 error publish Failed PUT 403
+32 verbose stack Error: forbidden cannot modify pre-existing version: 0.1.0
+32 verbose stack old={"name":"nodebb-plugin-btsync","version":"0.1.0","description":"allows users to add a folder on the host machine and a key for that folder to sync with","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/improvshark/nodebb-plugin-btsync"},"author":{"name":"improvshark"},"license":"ISC","bugs":{"url":"https://github.com/improvshark/nodebb-plugin-btsync/issues"},"homepage":"https://github.com/improvshark/nodebb-plugin-btsync","dependencies":{"btsync":"^0.2.0","mkdirp":"^0.5.0"},"gitHead":"fb99425a0438850547a25934df881f5583954833","_id":"nodebb-plugin-btsync@0.1.0","_shasum":"b49ff9a9fce623e1d853be327b24e2ea7e5d5dfc","_from":".","_npmVersion":"2.1.16","_nodeVersion":"0.10.35","_npmUser":{"name":"improvshark","email":"improvshark@gmail.com"},"maintainers":[{"name":"improvshark","email":"improvshark@gmail.com"}],"dist":{"shasum":"b49ff9a9fce623e1d853be327b24e2ea7e5d5dfc","tarball":"http://registry.npmjs.org/nodebb-plugin-btsync/-/nodebb-plugin-btsync-0.1.0.tgz"}}
+32 verbose stack new={"name":"nodebb-plugin-btsync","version":"0.1.0","description":"allows users to add a folder on the host machine and a key for that folder to sync with","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/improvshark/nodebb-plugin-btsync"},"author":{"name":"improvshark"},"license":"MIT","bugs":{"url":"https://github.com/improvshark/nodebb-plugin-btsync/issues"},"homepage":"https://github.com/improvshark/nodebb-plugin-btsync","dependencies":{"btsync":"^0.2.0","mkdirp":"^0.5.0"},"readme":"DO NOT USE ..in dev\u000a","readmeFilename":"README.md","gitHead":"fb99425a0438850547a25934df881f5583954833","_id":"nodebb-plugin-btsync@0.1.0","_shasum":"3978679a2c5d479eeacd530e922a7e46a8d5a3f5","_from":".","_npmVersion":"2.1.16","_nodeVersion":"0.10.35","_npmUser":{"name":"improvshark","email":"improvshark@gmail.com"},"maintainers":[{"name":"improvshark","email":"improvshark@gmail.com"}],"dist":{"shasum":"3978679a2c5d479eeacd530e922a7e46a8d5a3f5","tarball":"http://registry.npmjs.org/nodebb-plugin-btsync/-/nodebb-plugin-btsync-0.1.0.tgz"}}: nodebb-plugin-btsync
+32 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:244:14)
+32 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+32 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:373:22)
+32 verbose stack     at Request.emit (events.js:98:17)
+32 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+32 verbose stack     at Request.emit (events.js:117:20)
+32 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+32 verbose stack     at IncomingMessage.emit (events.js:117:20)
+32 verbose stack     at _stream_readable.js:944:16
+32 verbose stack     at process._tickCallback (node.js:442:13)
+33 verbose statusCode 403
+34 verbose pkgid nodebb-plugin-btsync
+35 verbose cwd /home/improvshark/Desktop/docker-lanForum/nodebb/nodebb-plugin-btsync
+36 error Linux 3.10.63-1-MANJARO
+37 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
+38 error node v0.10.35
+39 error npm  v2.1.16
+40 error code E403
+41 error forbidden cannot modify pre-existing version: 0.1.0
+41 error old={"name":"nodebb-plugin-btsync","version":"0.1.0","description":"allows users to add a folder on the host machine and a key for that folder to sync with","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/improvshark/nodebb-plugin-btsync"},"author":{"name":"improvshark"},"license":"ISC","bugs":{"url":"https://github.com/improvshark/nodebb-plugin-btsync/issues"},"homepage":"https://github.com/improvshark/nodebb-plugin-btsync","dependencies":{"btsync":"^0.2.0","mkdirp":"^0.5.0"},"gitHead":"fb99425a0438850547a25934df881f5583954833","_id":"nodebb-plugin-btsync@0.1.0","_shasum":"b49ff9a9fce623e1d853be327b24e2ea7e5d5dfc","_from":".","_npmVersion":"2.1.16","_nodeVersion":"0.10.35","_npmUser":{"name":"improvshark","email":"improvshark@gmail.com"},"maintainers":[{"name":"improvshark","email":"improvshark@gmail.com"}],"dist":{"shasum":"b49ff9a9fce623e1d853be327b24e2ea7e5d5dfc","tarball":"http://registry.npmjs.org/nodebb-plugin-btsync/-/nodebb-plugin-btsync-0.1.0.tgz"}}
+41 error new={"name":"nodebb-plugin-btsync","version":"0.1.0","description":"allows users to add a folder on the host machine and a key for that folder to sync with","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/improvshark/nodebb-plugin-btsync"},"author":{"name":"improvshark"},"license":"MIT","bugs":{"url":"https://github.com/improvshark/nodebb-plugin-btsync/issues"},"homepage":"https://github.com/improvshark/nodebb-plugin-btsync","dependencies":{"btsync":"^0.2.0","mkdirp":"^0.5.0"},"readme":"DO NOT USE ..in dev\u000a","readmeFilename":"README.md","gitHead":"fb99425a0438850547a25934df881f5583954833","_id":"nodebb-plugin-btsync@0.1.0","_shasum":"3978679a2c5d479eeacd530e922a7e46a8d5a3f5","_from":".","_npmVersion":"2.1.16","_nodeVersion":"0.10.35","_npmUser":{"name":"improvshark","email":"improvshark@gmail.com"},"maintainers":[{"name":"improvshark","email":"improvshark@gmail.com"}],"dist":{"shasum":"3978679a2c5d479eeacd530e922a7e46a8d5a3f5","tarball":"http://registry.npmjs.org/nodebb-plugin-btsync/-/nodebb-plugin-btsync-0.1.0.tgz"}}: nodebb-plugin-btsync
+42 error If you need help, you may report this error at:
+42 error     <http://github.com/npm/npm/issues>
+43 verbose exit [ 1, true ]
