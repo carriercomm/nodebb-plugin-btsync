@@ -5,7 +5,8 @@
     "url": "https://github.com/improvshark/nodebb-plugin-btsync",
     "library": "./btsync.js",
     "hooks": [
-        { "hook": "filter:post.save", "method": "parseBefore" },
-        { "hook": "action:post.get", "method": "parseAfter" }
+        { "hook": "action:post.save", "method": "parseBefore", "callbacked": true },
+        { "hook": "action:post.edit", "method": "parseBefore", "callbacked": true },
+        { "hook": "filter:parse.post", "method": "parseAfter","callbacked": true }
     ]
 }
