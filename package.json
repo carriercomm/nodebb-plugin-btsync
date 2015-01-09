@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-btsync",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "allows users to add a folder on the host machine and a key for that folder to sync with",
   "main": "btsync.js",
   "scripts": {
